@@ -254,7 +254,6 @@ td {
 .selection span {
     background-color: rgba(9, 161, 93, 0.15);
     width: 152px;
-
     padding: 10px 14px;
     display: flex;
     justify-content: space-between;
@@ -262,6 +261,17 @@ td {
     border: 1px solid #0E0E0E;
     border-radius: 4px;
 }
+.table-head {
+    text-align: center; /* Optional: if you want to center the content */
+  }
+  
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+  }
 
 
 
@@ -352,8 +362,7 @@ td {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    background: linear-gradient(rgba(14, 14, 14, 0.30), rgba(14, 14, 14, 0.30)),
-        url('../assets/quote-bg.png');
+    background:#FFFFFF url('../assets/quote-bg.png');
     background-size: 64px 64px;
     background-position: 9px 9px;
     background-repeat: no-repeat;
